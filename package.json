@@ -1,0 +1,26 @@
+{
+  "name": "ts-local-import-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-schaefer/ts-local-import-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-schaefer/ts-local-import-test/issues"
+  },
+  "homepage": "https://github.com/max-schaefer/ts-local-import-test#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "ts-node": "^10.0.0"
+  }
+}
